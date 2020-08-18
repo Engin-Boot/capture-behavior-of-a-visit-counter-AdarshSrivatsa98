@@ -1,13 +1,17 @@
 # Visit-counter for a Facilities Manager
 
-Scenario: Report visitor trends during a week of operation
+## Scenario: Report visitor trends during a week of operation
 
-  Given
-  When
-  Then
+  Given: Monitoring system is in use
 
-Scenario: Alert when seating capacity is full
+  When: Manager asks for report  
 
-  Given
-  When
-  Then
+  Then Compute and render Trends
+
+## Scenario: Alert when seating capacity is full
+
+  Given: Monitoring system is in use  
+
+  When: No seats are available in free list  
+  
+  Then: Render alert to manager
