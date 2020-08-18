@@ -6,7 +6,7 @@
 
   When: Patients visits hospital  
 
-  Then Incremnet count when patient enters and decrement when leaves
+  Then incremnet count when patient enters and decrement when leaves
 
 ## Scenario: Compute parking slots to reserve for visiting specialists
 
