@@ -6,7 +6,7 @@
 
   When: visit-counter goes down :(  
 
-  Then Resume operation where it was left smoothly  
+  Then Resume operation from point of break  
 
 ## Scenario: Reconcile counts if the sensor is offline for a while
 
@@ -14,4 +14,4 @@
 
   When: Sensor is offline for a while  
   
-  Then Resume operation where it was left smoothly  
+  Then Resume operation from point of break  
