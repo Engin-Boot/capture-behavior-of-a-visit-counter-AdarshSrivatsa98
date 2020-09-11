@@ -6,7 +6,7 @@
 
   When: Manager asks for report  
 
-  Then Compute and render Trends of visiting patients
+  Then Compute and render Trends.
 
 ## Scenario: Alert when seating capacity is full
 
